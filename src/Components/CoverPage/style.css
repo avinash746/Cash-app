@@ -1,0 +1,102 @@
+#coverpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.boxLayer1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 71%;
+    position: relative;
+    top: -15px;
+}
+
+.introCube1 {
+    align-self: flex-start;
+}
+
+.boxLayer2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.centerDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: -120px;
+    left: -70px;
+
+    @media only screen and (max-width: 1000px) {
+        left: 0;
+        top: -20px;
+    }
+}
+
+.centerText {
+    font-size: 170px;
+    font-weight: 800;
+    line-height: 166px;
+    letter-spacing: 0.5px;
+    text-align: center;
+
+    @media only screen and (max-width: 1000px) {
+        font-size: 120px;
+    }
+
+    @media only screen and (max-width: 500px) {
+        font-size: 90px;
+        line-height: 100px;
+    }
+
+}
+
+.centerTextCash {
+    font-weight: bolder;
+}
+
+.centerTextApp {
+    z-index: 2;
+}
+
+.introPhone {
+    position: absolute;
+
+    @media only screen and (max-width: 1000px) {
+        width: 50%;
+    }
+
+    @media only screen and (max-width: 1000px) {
+        width: 70%;
+    }
+}
+
+.boxLayer2 {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 0;
+
+    @media only screen and (max-width: 1000px) {
+        display: none;
+    }
+}
+
+.cubeImg {
+    align-self: baseline;
+}
+
+.introLadder{
+    @media only screen and (max-width: 400px) {
+        width: 50%;;
+    }
+}

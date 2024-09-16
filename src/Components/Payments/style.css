@@ -1,0 +1,111 @@
+.payments {
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+
+.payments > div {
+    flex: 0 0 50%;
+
+}
+
+.payment_upper {
+    position: relative;
+}
+
+.payment_upper h1 {
+    color: #00D54B;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.payment_upper p {
+    font-size: 16px;
+    font-weight: bolder;
+    line-height: 22px;
+    letter-spacing: 0.30000001192092896px;
+    text-align: left;
+    margin-right: 60px;
+}
+
+.text {
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+    z-index: 1;
+    width: 30%;
+}
+
+.payments_bg {
+    position: absolute;
+    background-image: url(../../assets/payments/background-lining.png);
+    background-repeat: no-repeat;
+    height: 45%;
+    width: 100%;
+    bottom: 0;
+
+}
+
+
+.payments_imgs > img {
+    position: absolute;
+}
+
+.paymentPhone {
+    bottom: 26%;
+    left: 24%;
+}
+
+.paymentPillerMedium1 {
+    left: 12%;
+    bottom: 5%;
+    z-index: 1;
+}
+
+.paymentPillerMedium2 {
+    left: 38%;
+    bottom: 5%;
+    z-index: 2;
+}
+
+.paymentPillerMedium3 {
+    left: 48%;
+    bottom: -3%;
+    z-index: 1;
+}
+
+.paymentPillersmall {
+    left: 20%;
+    bottom: 11%;
+}
+
+.paymentColumn1 {
+    left: -42%;
+    bottom: -11%;
+}
+
+.paymentColumn3 {
+    right: 0;
+    bottom: 10%;
+}
+
+.paymentColumn2 {
+    right: 24%;
+    bottom: -9.5%;
+    z-index: 1;
+}
+
+.paymentPillerMedium {
+    right: 20%;
+    bottom: 23%;
+    z-index: -2;
+}
+
+.paymentPillerLarge {
+    left: 48%;
+    bottom: 10%;
+    z-index: 1;
+}
